@@ -40,8 +40,8 @@ dev = [
 
 [project.urls]
 Homepage = "https://pypi.org/project/hawkapi-storage/"
-Repository = "https://github.com/ashimov/hawkapi-storage"
-Issues = "https://github.com/ashimov/hawkapi-storage/issues"
+Repository = "https://github.com/Hawk-API/hawkapi-storage"
+Issues = "https://github.com/Hawk-API/hawkapi-storage/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/hawkapi_storage"]

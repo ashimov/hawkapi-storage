@@ -1,6 +1,6 @@
 # hawkapi-storage
 
-Pluggable file storage for [HawkAPI](https://github.com/ashimov/HawkAPI). One `Storage` protocol, four backends: local filesystem, AWS S3 (and S3-compatible — MinIO, Wasabi, R2), Google Cloud Storage, Azure Blob Storage. Pre-signed URLs and streaming on all of them.
+Pluggable file storage for [HawkAPI](https://github.com/Hawk-API/HawkAPI). One `Storage` protocol, four backends: local filesystem, AWS S3 (and S3-compatible — MinIO, Wasabi, R2), Google Cloud Storage, Azure Blob Storage. Pre-signed URLs and streaming on all of them.
 
 ## Install
 
@@ -98,7 +98,7 @@ Every backend supports `signed_url(key, expires_in=..., method="GET" | "PUT")`. 
 ## Development
 
 ```bash
-git clone https://github.com/ashimov/hawkapi-storage.git
+git clone https://github.com/Hawk-API/hawkapi-storage.git
 cd hawkapi-storage
 uv sync --extra dev
 uv run pytest -q
